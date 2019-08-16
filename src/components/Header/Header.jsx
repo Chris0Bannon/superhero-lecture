@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './Supericon.jpg';
 
 class Header extends Component {
 
@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <h1>Super Hero Listifier</h1>                
+                <h1>Super Hero Listifier</h1>
             </header>
         )
     }
